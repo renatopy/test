@@ -1,4 +1,6 @@
 1.想撤销没有"git add"和"git commit"的修改，可以使用"git checkout -- 文件名"的命令;
 2.如果已经"git add"了修改，想撤销修改，先"git reset Head 文件名"，再"git checkout -- 文件名";
 3.如果已经"commit"了，直接返回上一个版本"git reset --hard head^"，上上个版本"head"后面是"^^"，可以用"head~n"代替(注意:n是一个数字);
-4.同上，也可以使用"git reset --hard sn"(注意sn是你想要版本的commit id号)。
+4.同上，也可以使用"git reset --hard sn"(注意sn是你想要版本的commit id号);
+5."ssh-keygen -t rsa -C "youremail@example.com""用于创建SSH Key,生成的两个文件之一id_rsa.pub是公钥，可以添加到github的SSH Keys中;
+6."git remote add origin git@github.com:your_countname/your_repositoryname.git",your_countname如字面意思，your_repositoryname为你创建的Repository名字。
