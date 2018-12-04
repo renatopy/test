@@ -1,4 +1,2 @@
-this is a test txt file just for test.you know.
-这是第一次修改。
-这是第二次修改。second modify.
-这是第三次修改哦，哈哈哈！
+在自学git的同时，整理的一些文git使用命令，比较关键的部分。
+方便自己记住的同时，记录下来。
