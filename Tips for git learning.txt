@@ -1,3 +1,8 @@
+第一个要配置的是你个人的用户名称和电子邮件地址。
+这两条配置很重要，每次 Git 提交时都会引用这两条信息，说明是谁提交了更新，所以会随更新内容一起被永久纳入历史记录：
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+下面是指的注意的部分：
 1.想撤销没有"git add"和"git commit"的修改，可以使用"git checkout -- 文件名"的命令;
 2.如果已经"git add"了修改，想撤销修改，先"git reset Head 文件名"，再"git checkout -- 文件名";
 3.如果已经"commit"了，直接返回上一个版本"git reset --hard head^"，上上个版本"head"后面是"^^"，可以用"head~n"代替(注意:n是一个数字);
